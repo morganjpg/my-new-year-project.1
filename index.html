@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2025</title>
+
+    <!-- Link to Google Fonts for a stylish font -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        /* Full-screen background image */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://img.freepik.com/premium-vector/2025-happy-new-year-design-vector-trendy-new-year-2025-design-template_884536-813.jpg?w=996');  /* New image URL */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Top message: Happy New Year 2025 */
+        .top-message {
+            position: absolute;
+            top: 10%; /* Position it near the top */
+            width: 100%;
+            text-align: center;
+            font-family: 'Pacifico', cursive;  /* Stylish font from Google Fonts */
+            font-size: 50px;
+            font-style: italic;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
+            color: #FFD700;  /* Golden color */
+            z-index: 2; /* Ensure it's above the background image */
+        }
+
+        /* Thank you for your amazing work in 2024 (Stylish Text) */
+        .thank-you-message {
+            position: absolute;
+            top: 20%; /* Position it closely below the first message */
+            width: 100%;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;  /* More formal font */
+            font-size: 40px;
+            font-style: italic;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+            color: #FF6347; /* Tomato color */
+            z-index: 2;
+        }
+
+        /* Let's achieve even more together in 2025 */
+        .achieve-message {
+            position: absolute;
+            top: 30%; /* Position it closely below the "thank you" message */
+            width: 100%;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            font-style: italic;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+            color: #32CD32; /* Lime green color */
+            z-index: 2;
+        }
+
+        /* Marquee Style */
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Dark background for the marquee */
+            z-index: 2; /* Ensure it's above other content */
+        }
+
+        .marquee {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 10px;
+            font-size: 20px;
+            color: white;
+            animation: marquee-animation 10s linear infinite;
+        }
+
+        @keyframes marquee-animation {
+            0% {
+                transform: translateX(100%); /* Start from right */
+            }
+            100% {
+                transform: translateX(-100%); /* End at left */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top message: Happy New Year 2025 -->
+    <div class="top-message">
+        Happy New Year 2025!
+    </div>
+
+    <!-- Thank you message (Stylish) -->
+    <div class="thank-you-message">
+        Thank you for your amazing work in 2024!
+    </div>
+
+    <!-- Achieve together message -->
+    <div class="achieve-message">
+        Let's achieve even more together in 2025!
+    </div>
+
+    <!-- Marquee Scrolling Text -->
+    <div class="marquee-container">
+        <div class="marquee">From Hiring Department, Medgulf Construction Co.</div>
+    </div>
+
+    <script>
+        // Optional: You can add more interactivity using JavaScript if needed
+        console.log("Happy New Year 2025! Thank you for your support.");
+    </script>
+
+</body>
+</html>
